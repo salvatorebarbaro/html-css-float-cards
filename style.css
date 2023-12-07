@@ -1,0 +1,29 @@
+/*regola di reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+/*regola di test inserita per vedere come ci muoviamo nella pagina*/
+    border: 1px solid red;
+
+}
+/*fine regola di reset*/
+
+body{ 
+    /*font-family: nunito;  vedere come inseririe questo carattere */
+    font-family: 'Nunito', sans-serif;
+}
+
+/*head della pagina*/
+h1{
+    font:bold;
+    color: #BF2D60;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+body>p{
+    text-align: center;
+    margin-bottom: 30px;
+}
