@@ -6,7 +6,7 @@
 /*regola di test inserita per vedere come ci muoviamo nella pagina*/
     
 
-   /* border: 1px solid red;*/
+    border: 1px solid red;
 
 /* fine regola di test inserita per vedere come ci muoviamo nella pagina*/
 
@@ -37,22 +37,24 @@ header>p{
 
 section .colum{
     float: left;
-    
+    /*margin-top: 10px;*/
+    margin-bottom: 20px;
     width: calc(33.33%);
-    height: 150px;
+    height: 120px;
+    
     background-color: #0F0E17;
 }
 
 .contenitore{
-    margin: 0px 250px;
+    margin: 0px 100px;
     
 }
 .contenitore .colum img{
     float: left;
     height: 120px;
-    padding-left: 20px;
+    /*padding-left: 20px;
     padding-top: 13px;
-    padding-right: 20px;
+    padding-right: 20px;*/
 }
 
 .contenitore .colum p{
@@ -66,7 +68,10 @@ section .colum{
     margin-top: 25px;
     /*da rivedre nnon riesco a togliere i margini  */
 }
-a {text-decoration: none; }
+a {text-decoration: none; 
+    color: blue;
+}
+
 
 
 
