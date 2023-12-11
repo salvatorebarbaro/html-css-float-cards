@@ -6,7 +6,7 @@
 /*regola di test inserita per vedere come ci muoviamo nella pagina*/
     
 
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 
 /* fine regola di test inserita per vedere come ci muoviamo nella pagina*/
 
@@ -33,17 +33,18 @@ header>p{
 }
 /*fine header della pagina*/
 
-/*body della pagina*/
+/*inizio body della pagina*/
 
 section .colum{
     float: left;
     /*margin-top: 10px;*/
     margin-bottom: 20px;
-    width: calc(33.33%);
+    width: calc(30%);
     height: 120px;
+    margin-left: 30px;
     
     background-color: #0F0E17;
-    box-shadow: 5px 10px;
+    box-shadow: 2px 5px;
     
     /*ultima cosa da vedere è questa perchè quando do margine a sinistra mi manda tutto a capo*/
 
@@ -52,14 +53,13 @@ section .colum{
 
 .contenitore{
     margin: 0px 100px;
+    /* distanza data ai lati */
     
 }
 .contenitore .colum img{
     float: left;
     height: 120px;
-    /*padding-left: 20px;
-    padding-top: 13px;
-    padding-right: 20px;*/
+    
 }
 
 .contenitore .colum p{
@@ -80,6 +80,7 @@ a
     color: #2484BB;
     padding-left: 30px;
 }
+/* fine body della pagina */
 
 
 
