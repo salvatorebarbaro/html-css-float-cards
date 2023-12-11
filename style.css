@@ -43,6 +43,7 @@ section .colum{
     height: 120px;
     
     background-color: #0F0E17;
+    box-shadow: 5px 10px;
     
     /*ultima cosa da vedere è questa perchè quando do margine a sinistra mi manda tutto a capo*/
 
@@ -76,7 +77,7 @@ section .colum{
 a
  
 {text-decoration: none; 
-    color: blue;
+    color: #2484BB;
     padding-left: 30px;
 }
 
