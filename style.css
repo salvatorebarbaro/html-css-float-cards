@@ -6,7 +6,7 @@
 /*regola di test inserita per vedere come ci muoviamo nella pagina*/
     
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 
 /* fine regola di test inserita per vedere come ci muoviamo nella pagina*/
 
@@ -43,6 +43,10 @@ section .colum{
     height: 120px;
     
     background-color: #0F0E17;
+    
+    /*ultima cosa da vedere è questa perchè quando do margine a sinistra mi manda tutto a capo*/
+
+
 }
 
 .contenitore{
@@ -60,16 +64,19 @@ section .colum{
 .contenitore .colum p{
     color: white;
     margin-top: 15px;
+    padding-left: 150px;
    
 }
 
-
 .link{
     margin-top: 25px;
-    /*da rivedre nnon riesco a togliere i margini  */
+    
 }
-a {text-decoration: none; 
+
+a 
+{text-decoration: none; 
     color: blue;
+    padding-left: 30px;
 }
 
 
