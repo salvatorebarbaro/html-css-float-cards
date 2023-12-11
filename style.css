@@ -5,8 +5,8 @@
     box-sizing: border-box;
 /*regola di test inserita per vedere come ci muoviamo nella pagina*/
     
-
-    border: 1px solid red;
+    
+    
 
 /* fine regola di test inserita per vedere come ci muoviamo nella pagina*/
 
@@ -44,7 +44,7 @@ section .colum{
     margin-left: 30px;
     
     background-color: #0F0E17;
-    box-shadow: 2px 5px;
+   
     
     /*ultima cosa da vedere è questa perchè quando do margine a sinistra mi manda tutto a capo*/
 
@@ -68,20 +68,39 @@ section .colum{
     padding-left: 150px;
    
 }
+h2{color: white;
+    margin-top: 15px;
+    padding-left: 150px;
+    font-size: larger;
+
+}
 
 .link{
-    margin-top: 25px;
+    margin-top: 5px;
+    padding-left: 30px;
     
 }
 
-a
- 
-{text-decoration: none; 
+a{
+    text-decoration: none; 
     color: #2484BB;
-    padding-left: 30px;
+    padding-left: px;
+    
+    padding-top: 1px;
+
 }
 /* fine body della pagina */
 
 
+/*cose da rivedere 
+1)il non riuscire a staccare l'email dal paragrafo
+2)sbaglio per quanto riguarda il come ho sistemato a modo mio le cards 
+3)fatto in modo differente 
+4) problemi con l'ombra 
+
+
+
+modificare nome mettendo h2
+a non essendo block va inseito all' interno di un div
 
 
